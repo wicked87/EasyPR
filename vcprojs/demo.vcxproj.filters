@@ -18,9 +18,6 @@
     <ClCompile Include="..\test\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\thirdparty\xmlParser\xmlParser.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\test\accuracy.hpp">
@@ -32,18 +29,8 @@
     <ClInclude Include="..\test\plate.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\test\config.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\test\result.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\thirdparty\xmlParser\xmlParser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\result\gridSearch.txt" />
-    <Text Include="..\result\accuracy.txt" />
+    <Text Include="..\accuracy.txt" />
   </ItemGroup>
 </Project>
